@@ -65,14 +65,14 @@ public class AggDataCompiler
         */
        	
         //read in jpeg metadata / construct datastructure
-        /*JPEGMetadata jpegMetadata = new JPEGMetadata();
+        JPEGMetadata jpegMetadata = new JPEGMetadata();
         jpegMetadata.setJPEGMetadata(reverseGeoCode,inputImageDir, desktop); //reverseGeoCode, input dir, output directoy
         System.out.println("JPEG Metadata Parsing");
         for(JPEGMetadata s: jpegMetadata.jpegMetadatas)
         {
         	ad.add((AggData)s);
         	//System.out.println(s);
-        }*/
+        }
         
         //read in Google Location Data / construct data structure
        	System.out.println("Google Location Data parsing");
